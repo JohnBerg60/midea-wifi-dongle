@@ -1,0 +1,274 @@
+{
+  "uuid": "f6174e2898012191d9d1bfbd0972f18b",
+  "path": "Offline/midea wifi dongle",
+  "name": "midea wifi dongle",
+  "content": "",
+  "created_at": "2021-07-07 12:28:49",
+  "updated_at": "2021-07-07 21:41:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "977fcc847cc3d04d12c48cfc8e20d698",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b5953d65a4054165b11dfc39ebcbd953": 1,
+        "588dac9f81df8f83843513972963b454": 1,
+        "e8417a327bc44ce198fde813725b7eb9": 2,
+        "2cbbccf860a84ef9a9976b6bb9db0243": 2,
+        "8f5cae780c0a8ec7b7b995e1b2effd15": 2,
+        "b210af5a1436310a86e8b108e2e5a90b": 7,
+        "0e7de0705db79c49f7005d174cdac6cc": 1,
+        "8594922bf7656e1a593fe27b198cf7ff": 1,
+        "caf0741cbbe68c68867ee13c04b24a47": 2,
+        "5a4698c9bf6936a3c14565634e0e6669": 1,
+        "154b66255b01a09bf1c88bb1ea89be78": 1,
+        "4dd8ff8054da4cc08db621e82016041e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CEC",
+            "BOM_Manufacturer Part": "CA45-A-10V-22uF-K",
+            "BOM_Supplier Part": "C129272",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f19f0a1399f04a86a8edacb9b9f147f4",
+            "uuid": "e8417a327bc44ce198fde813725b7eb9"
+          }
+        ],
+        [
+          "1nF",
+          1,
+          "C0603",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10B102KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1588",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "5a4698c9bf6936a3c14565634e0e6669"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Supplier Part": "C14663",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "FLASH",
+          1,
+          "SW-SMD_L4.0-W2.9-LS5.0",
+          "FLASH",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720477",
+            "BOM_Manufacturer": "XUNPU",
+            "BOM_Manufacturer Part": "TS-1088-AR02016",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "54b9ab7aebe5456bbc9f2879b8d360ff",
+            "uuid": "2cbbccf860a84ef9a9976b6bb9db0243"
+          }
+        ],
+        [
+          "2N7002",
+          2,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "2N7002",
+            "BOM_Supplier Part": "C8545",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "8f5cae780c0a8ec7b7b995e1b2effd15"
+          }
+        ],
+        [
+          "10K",
+          7,
+          "R0603",
+          "R1,R2,R3,R4,R5,R6,R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF1002T5E",
+            "BOM_Supplier Part": "C25804",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b210af5a1436310a86e8b108e2e5a90b"
+          }
+        ],
+        [
+          "2.2K",
+          2,
+          "R0603",
+          "R8,R9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF2201T5E",
+            "BOM_Supplier Part": "C4190",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "caf0741cbbe68c68867ee13c04b24a47"
+          }
+        ],
+        [
+          "RESET",
+          1,
+          "SW-SMD_L4.0-W2.9-LS5.0",
+          "RESET",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720477",
+            "BOM_Manufacturer": "XUNPU",
+            "BOM_Manufacturer Part": "TS-1088-AR02016",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "54b9ab7aebe5456bbc9f2879b8d360ff",
+            "uuid": "2cbbccf860a84ef9a9976b6bb9db0243"
+          }
+        ],
+        [
+          "19-217/BHC-ZL1M2RY/3T",
+          1,
+          "LED0603-R-RD",
+          "RX",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "19-217/BHC-ZL1M2RY/3T",
+            "BOM_Supplier Part": "C72041",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "8594922bf7656e1a593fe27b198cf7ff"
+          }
+        ],
+        [
+          "19-213/Y2C-CQ2R2L/3T(CY)",
+          1,
+          "LED0603-R-RD",
+          "TX",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "19-213/Y2C-CQ2R2L/3T(CY)",
+            "BOM_Supplier Part": "C72038",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "0e7de0705db79c49f7005d174cdac6cc"
+          }
+        ],
+        [
+          "ESP-12F(ESP8266MOD)",
+          1,
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "BOM_Supplier Part": "C82891",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "b5953d65a4054165b11dfc39ebcbd953"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_Supplier Part": "C6186",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "U217-04XN-XXR84",
+          1,
+          "USB-A-SMD_U217-041N-4BV81",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C319178",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "U217-04XN-XXR84",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6892964dbca24f52a6813f774d94ecbc",
+            "uuid": "4dd8ff8054da4cc08db621e82016041e"
+          }
+        ]
+      ],
+      "updateTime": 1625686079,
+      "createTime": 1625654949,
+      "histories": [],
+      "created_at": "2021-07-07 12:49:09",
+      "updated_at": "2021-07-07 21:27:59"
+    },
+    {
+      "uuid": "b3670ec5050a21b0e483f3135830017a",
+      "puuid": "f6174e2898012191d9d1bfbd0972f18b",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f19f0a1399f04a86a8edacb9b9f147f4": 2,
+        "21bb26c585544e17a64bb2b57131b3de": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "bade90667a6e4731855e9a223387b8a6": 2,
+        "398691f1f785460098bbe5ee6590333c": 9,
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 2,
+        "54b9ab7aebe5456bbc9f2879b8d360ff": 2,
+        "6892964dbca24f52a6813f774d94ecbc": 1
+      },
+      "BOM": [],
+      "updateTime": 1625686917,
+      "createTime": 1625661447,
+      "histories": [],
+      "created_at": "2021-07-07 14:37:27",
+      "updated_at": "2021-07-07 21:41:57"
+    }
+  ],
+  "sort": [],
+  "title": "midea wifi dongle",
+  "foldername": "midea wifi dongle",
+  "schfilename": "midea wifi dongle.json",
+  "schfilemtime": 1625686079474
+}
