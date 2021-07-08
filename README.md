@@ -1,6 +1,6 @@
-# midea-open-dongle
+# Midea mini dongle
 
-An open project for a stick for air conditioners controlled by the Midea UART protocol.
+An open project for a stick for air conditioners controlled by the Midea UART protocol. This repository contains a schematic and PCB layout for a Midea mini dongle. Also there is a folder for fabrication of the dongles by [jlcpcb](https://jlcpcb.com/)
 
 A far from complete list of supported brands:
 1. [Midea](https://www.midea.com/)
@@ -10,32 +10,39 @@ A far from complete list of supported brands:
 5. [Carrier](https://www.carrier.com/)
 6. [Comfee](http://www.comfee-russia.ru/)
 7. [Inventor](https://www.inventorairconditioner.com/)
-8. [Dimstal]
+8. [Dimstal](https://www.dimstal.de/)
 
-Board dimensions: 49x20mm, antennas: + 7mm, USB connector: + 15mm, overall: 71x20mm.
 
-![1](images/01.jpg)
+![1](images/3d.png)
 
-![2](images/02.jpg)
+### Credits
 
-![2](images/03.jpg)
+Thanks to [Sergey V. Dudanov](https://github.com/dudanov) who created an excelent [midea_ac](https://esphome.io/components/climate/midea_ac.html) component for ESPHome that integrates midea-like aircondititioners with Home Assistant.
 
-Description of files:
-* [schematic.pdf](schematic.pdf) - schematic diagram
-Fabrication folder:
-* [gerber.zip](gerber.zip) - files for making a printed circuit board
-* [bom.csv](bom.csv) - bill of materials
-* [position.csv](position.csv) - CPL/POS file
+
+## Schematic
+
+This is the schematic of Midea mini dongle
+
+![Schematic](images/schema.jpg)
+
+All the files needed to open the design in EasyEDA are also included.
+
+## PCB 
+Dimensions: 
+ - Width x Height: 49x20mm
+ - USB connector: +15mm 
+ - Overall: 71x20mm
+ - Thickness: 1.6mm
+
+### 2D View
+![2D View](images/2d.jpg)
 
 The last 3 files can be used to order a stick from the [JLCPCB](https://jlcpcb.com) factory. All that remains is to solder the radio module and the USB connector yourself.
 
-## Imitation of IR remote control commands
 
-I left out the IR possibility, perhaps I will add it in a next version
-
-![2](images/tsop_stick.jpg)
-
-![2](images/tsop_display.jpg)
+## Fabrication
+The 3 files in the fabricarion folder is all you need to order the sticks from JLCPCB. I do not have tried other fabs.
 
 ## Frequently asked Questions:
 > How can I tell if my air conditioner is supported or not?
@@ -50,6 +57,3 @@ I left out the IR possibility, perhaps I will add it in a next version
 
 *Yes, you can write me to my at [e-mail](mailto:johnnyvandeberg@gmail.com).*
 
-![2](images/sticks.jpg)
-
-If this project was useful to you, you can [buy DudanOv](https://paypal.me/dudan0v) a Cup of coffee :)
