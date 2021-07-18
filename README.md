@@ -12,8 +12,9 @@ A far from complete list of supported brands:
 7. [Inventor](https://www.inventorairconditioner.com/)
 8. [Dimstal](https://www.dimstal.de/)
 
-
-![1](images/3d.png)
+![1](images/dongles.png)
+![2](images/3d.png)
+![3](images/mount_dongle.png)
 
 ### Credits
 
@@ -43,6 +44,10 @@ The last 3 files can be used to order a stick from the [JLCPCB](https://jlcpcb.c
 
 ## Fabrication
 The 3 files in the fabricarion folder is all you need to order the sticks from JLCPCB. I do not have tried other fabs.
+
+## Usefull links
+
+Another [midea wifi dongle](https://github.com/lizardsystems/midea-mini-dongle)
 
 ## Frequently asked Questions:
 > How can I tell if my air conditioner is supported or not?
